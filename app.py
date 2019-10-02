@@ -9,19 +9,19 @@ api = Api(app)
 
 users = [
     {
-        "name": "Sachin Tendulkar",
+        "name": "Sachin_Tendulkar",
         "age": 43,
         "sport": "Cricket",
         "rank": 1 
     },
     {
-        "name": "Roger Federer",
+        "name": "Roger_Federer",
         "age": 37,
         "sport": "Tennis",
         "rank": 3
     },
     {
-        "name": "Christiano Ronaldo",
+        "name": "Christiano_Ronaldo",
         "age": 35,
         "sport": "Football",
         "rank": 2
