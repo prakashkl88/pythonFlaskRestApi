@@ -1,0 +1,18 @@
+prakashl-mac-0:~ prakashl$ python3.7 
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+>>> res = requests.get('http://127.0.0.1:5000/user/Roger_Federer')
+>>> res.ok
+True
+>>> res.status_code
+200
+>>> res.json()
+{'name': 'Roger_Federer', 'age': 37, 'sport': 'Tennis', 'rank': 3}
+>>> out = res.json()
+>>> print('name is ', out['name'])
+name is  Roger_Federer
+>>> print('rank is ', out['rank'])
+rank is  3
+>>> 
