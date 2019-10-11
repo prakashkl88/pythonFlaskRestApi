@@ -4,11 +4,13 @@ implementation of REST APIs using flask in python
 
 # Dependencies
 
+```
 $> pip3 install flask
 $> pip3 install flask_restful
+```
 
 # Running your API-Service
-
+```
 $> python3.7 app.py
  * Serving Flask app "app" (lazy loading)
  * Environment: production
@@ -21,9 +23,10 @@ $> python3.7 app.py
  * Debugger PIN: 419-639-766
  
  <running now>
-
+```
 
 # Testing
+```
 $> curl -X GET http://127.0.0.1:5000/user/Sachin_Tendulkar  <-- same link accessible via your browser as well
 {
     "name": "Sachin_Tendulkar",
@@ -36,3 +39,4 @@ $>
 You can see this request pop up at your python3.7 app.py o.p:
 
 127.0.0.1 - - [02/Oct/2019 19:48:14] "GET /user/Sachin_Tendulkar HTTP/1.1" 200 -
+```
