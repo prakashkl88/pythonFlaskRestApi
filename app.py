@@ -25,6 +25,12 @@ users = [
         "age": 35,
         "sport": "Football",
         "rank": 2
+    },
+    {
+        "name": "Pele",
+        "age": 55,
+        "sport": "soccer",
+        "rank": 1
     }
 ]
 
